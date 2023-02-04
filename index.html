@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <meta name="description" content="Electrical company template 1">
+    <title>Fake Electric</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <link href="./resources/style.css" rel="stylesheet">
+    <link rel="icon" href="./resources/imgs/bolt.svg">
+    <script defer src="./resources/dropdown-menu.js"></script>
+    <script defer src="./resources/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="phone">Call us! 250-555-5555</h1>
+        <img src="resources/imgs/company-logo.png" height="50px" width="50px" class="mobile-logo" alt="company logo">
+    </header>
+    
+    <div>
+      <div onclick="myFunction()" id="drop-btn">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#" class="link link-home">Home</a>
+          <a href="./sub-pages/about-us.html" class="link">About Us</a>
+          <a href="./sub-pages/commercial.html" class="link">Commercial</a>
+          <a href="./sub-pages/industrial.html" class="link">Industrial</a>
+          <a href="./sub-pages/resi.html" class="link">Residential</a>
+          <a href="./sub-pages/other.html" class="link">Other Services</a>
+          <a href="./sub-pages/contact.html" class="link">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="desktop-nav">
+        <a href="#"><img src="./resources/imgs/company-logo.png" height="50px" width="50px" class="desktop-logo" alt="company-logo"></a>
+        <a href="#" class="link link-home" id="desktop-nav-current-page">Home</a>
+        <a href="./sub-pages/about-us.html" class="link">About Us</a>
+        <a href="./sub-pages/resi.html" class="link">Residential</a>
+        <a href="./sub-pages/commercial.html" class="link">Commercial</a>
+        <a href="./sub-pages/industrial.html" class="link">Industrial</a>
+        <a href="./sub-pages/other.html" class="link">Other Services</a>
+        <a href="./sub-pages/contact.html" class="link">Contact Us</a>
+      </div>
+
+       <main id="main">
+
+        <div class="banner">
+            <div class="banner-opacity">
+                <h1>Victoria Licensed Electrician</h1>
+                <div class="banner-flex">
+                    <div class="call-now">
+                        <a href="tel:250-555-5555">
+                            <p>CALL NOW FOR A FREE QUOTE</p>
+                            <h5>250-555-5555</h5>
+                        </a>
+                    </div>
+                    <a href="./sub-pages/about-us.html" class="call-now about-us-header">About Us</a>
+                </div>
+            </div>
+        </div>
+        
+
+        <h2 class="main-services-header">What We Do</h2>
+        <div class="main-services-line"></div>
+        <div class="main-services">
+            <a href="./sub-pages/resi.html">
+                <div class="main-service-container">
+                    <svg class="main-service-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                        <polygon points="30.1,84.5 10.2,50 30.1,15.5 69.9,15.5 89.8,50 69.9,84.5" fill="currentColor"/>
+                    </svg>
+                    <i class="fa fa-wrench fa-2x" aria-hidden="true"></i>
+                    <h3>Residential</h3>
+                    <ul>
+                        <li>Renovations</li>
+                        <li>Panel Upgrades</li>
+                        <li>New Construction</li>
+                        <li>Landscape Lighting</li>
+                        <li>Knob-and-Tube Replacement</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="./sub-pages/commercial.html">
+                <div class="main-service-container">
+                    <svg class="main-service-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                        <polygon points="30.1,84.5 10.2,50 30.1,15.5 69.9,15.5 89.8,50 69.9,84.5" fill="currentColor"/>
+                    </svg>
+                    <i class="fa fa-bolt fa-2x" aria-hidden="true"></i>
+                    <h3>Commercial</h3>
+                    <ul>
+                        <li>Data Wiring</li>
+                        <li>Security Systems</li>
+                        <li>Backup Generators</li>
+                        <li>Fire Alarm Systems</li>
+                        <li>Warehouse and Office Lighting</li>
+                    </ul>
+                </div>
+            </a>
+            <a href="./sub-pages/industrial.html">
+                <div class="main-service-container">
+                    <svg class="main-service-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                        <polygon points="30.1,84.5 10.2,50 30.1,15.5 69.9,15.5 89.8,50 69.9,84.5" fill="currentColor"/>
+                    </svg>
+                    <i class="fa fa-code-fork fa-2x" aria-hidden="true"></i>
+                    <h3>Industrial</h3>
+                    <ul>
+                        <li>Switchboards</li>
+                        <li>600v Systems</li>
+                        <li>Motor Controls</li>
+                        <li>3-Phase Circuits</li>
+                        <li>Outdoor Lighting</li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+            <div class="cities">
+                <h2>Cities We Serve</h2>
+                <div class="main-services-line"></div>
+                <p>Victoria | Nanaimo | Courtenay | Campbell River</p>
+            </div>
+
+        
+        <div class="about-us-section">
+            <div class="about-us-opacity">
+                <svg class="top-wedge" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path fill="currentColor" d="M0 0 L100 0 L100 2 L0 100 Z"></path>
+                </svg>
+                <h2>About Us</h2>
+                <div class="about-us-line"></div>
+                <div class="about-us-windows-flex">
+                    <div class="about-us-window">
+                        <i class="fa fa-cogs fa-3x" aria-hidden="true"></i>
+                        <h3>212</h3>
+                        <div class="about-us-window-line"></div>
+                        <p>Panel Replacements</p>
+                    </div>
+                    <div class="about-us-window">
+                        <i class="fa fa-bolt fa-3x" aria-hidden="true"></i>
+                        <h3>634</h3>
+                        <div class="about-us-window-line"></div>
+                        <p>Km of Wire Installed</p>
+                    </div>
+                    <div class="about-us-window">
+                        <i class="fa fa-check fa-3x" aria-hidden="true"></i>
+                        <h3>165</h3>
+                        <div class="about-us-window-line"></div>
+                        <p>Collective Years Experience</p>
+                    </div>
+                    <div class="about-us-window">
+                        <i class="fa fa-thumbs-o-up fa-3x" aria-hidden="true"></i>
+                        <h3>423</h3>
+                        <div class="about-us-window-line"></div>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+                <svg class="bottom-wedge" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <g transform="translate(0,-952.36218)">
+                        <path fill="currentColor" d="m 0,1052.3622 100,0 0,-2 L 0,952.36218 z"></path>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        
+        <section class="reviews-section">
+            <div class="reviews-opacity">
+                <svg class="top-wedge" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path fill="currentColor" d="M0 0 L100 0 L100 2 L0 100 Z"></path>
+                </svg>
+                <h2>Reviews</h2>
+                <div class="about-us-line"></div>
+                <div class="review-slideshow-container">
+                  <div class="myReviewSlides fade">
+                    <p class="slideReview">I have an older condo, and needed some breakers and wires replaced, but two other electricians said the walls and floor aren't concrete so it couldn't be done.  But Mike is great, and he did the job well.  Professional, reliable, great value, and not afraid to do a more difficult task.</p>
+                    <p class="slideReview">Sean Dayton</p>
+                  </div>
+                
+                  <div class="myReviewSlides fade">
+                    <p class="slideReview">Sean and team completely re-did the electrical in our apartment complex before upgrading us to a 400 amp service. The care, time, and expertise that Fake Electric brought to the jobsite was something that I have never seen before. Thanks to the Fake Electric for being true electrical professionals.</p>
+                    <p class="slideReview">Mike Smith</p>
+                  </div>
+                
+                  <div class="myReviewSlides fade">
+                    <p class="slideReview">The people at Fake Electric are capable of commercial and residential projects with a sharp focus on quality. Clean work and careful attention, along with a respectful and knowledgeable crew is what keeps us calling them back.</p>
+                    <p class="slideReview">Pedro Gonzales</p>
+                  </div>
+                
+                  <div class="myReviewSlides fade">
+                    <p class="slideReview">Fake Electrical team were superb, and I would highly recommend this company!</p>
+                    <p class="slideReview">Sean Peters</p>
+                  </div>
+                
+                  <!-- Next and previous buttons -->
+                  <p class="prevReview" onclick="plusReviewSlides(-1)">&#10094;</p>
+                  <p class="nextReview" onclick="plusReviewSlides(1)">&#10095;</p>
+                </div>
+                <br>
+                
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                  <span class="reviewDot" onclick="currentReviewSlide(1)"></span>
+                  <span class="reviewDot" onclick="currentReviewSlide(2)"></span>
+                  <span class="reviewDot" onclick="currentReviewSlide(3)"></span>
+                  <span class="reviewDot" onclick="currentReviewSlide(4)"></span>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <h3>Fake Electric</h3>
+            <div class="footer-flex">
+                <div class="contact-info">
+                    <h4>Fake Electric LTD</h4>
+                    <div class="contact-info-container">
+                        <div class="contact-info-i-container">
+                            <i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+                        </div>
+                        <p>(250)-555-5555</p>
+                    </div>
+                    <div class="contact-info-container">
+                        <div class="contact-info-i-container">
+                            <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+                        </div>
+                        <p>bennetthumphrey98<br>@gmail.com</p>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <h4>Social Media</h4>
+                    <div class="social-media-icons">
+                        <div class="social-media-icon-container">
+                            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-media-icon-container">
+                            <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-media-icon-container">
+                            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="site-maker-info">
+                    <p>Website by Bennett Humphrey</p>
+                    <p>bennetthumphrey98@gmail.com</p>
+                </div>
+                <p>Some copyright company 2022</p>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+       
+       </main>
+</body>
+</html>
